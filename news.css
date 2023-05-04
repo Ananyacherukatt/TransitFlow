@@ -1,0 +1,49 @@
+.navbar-area7 {
+  background-image: url(./img/blocks.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 375px;
+}
+.latest {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 41px;
+  text-align: center;
+  color: #1c1f35;
+}
+
+.hrRight {
+  border-right: 2px solid black;
+  height: 300px;
+}
+.subheadInland {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #1c1f35;
+}
+.inlanddes {
+  font-family: "Krub";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 151.52%;
+  /* or 24px */
+
+  color: #666c89;
+}
+.points {
+  font-family: "Krub";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 166.52%;
+
+
+  color: #1c1f35;
+}

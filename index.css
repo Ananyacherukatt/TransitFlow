@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Krub", sans-serif;
+}
+.rqust-buttn {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+.logo {
+  background: #091242;
+  padding: 48.5px 0;
+}
+.logo-name {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+}
+.logo-head-cont p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.gap {
+  gap: 1rem;
+}
+.navbar-area {
+  background-image: url(./img/bg-img.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 710px;
+}
+.nav-contents a {
+  text-decoration: none;
+  color: white;
+}
+.nav-contents ul {
+  gap: 1rem;
+}
+.nav-links {
+  border-right: 2px solid rgba(255, 255, 255, 0.2);
+  padding: 0rem 0rem;
+  padding-right: 30px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+.logic {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+.main-head {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 71px;
+  color: #ffffff;
+}
+.modern {
+  font-family: "Krub";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 151.52%;
+  color: #ffffff;
+}
+.explore {
+  padding: 10px;
+}
+.right-border {
+  border-left: 2px solid#D8D8D8;
+  padding-left: 2rem;
+}
+/* .right-border img {
+  padding-right: 2rem;
+} */
+
+.ship {
+  gap: 2rem;
+}
+.grey-head {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1c1f35;
+  padding-bottom: 0;
+}
+.safe-head {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 41px;
+  color: #1c1f35;
+}
+.sub-head {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #1c1f35;
+}
+
+.sub-head-des {
+  font-family: "Krub";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+
+  color: #666c89;
+  /* padding-right: 81px; */
+}
+.plane-img {
+  background-image: url();
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* height: 710px; */
+}
+
+.ship-container {
+  padding-bottom: 70px;
+}
+.solution {
+  padding-left: 50px;
+  padding-bottom: 70px;
+}
+.plane-img {
+  position: relative;
+}
+.secondary-banner-img {
+  position: absolute;
+  top: 15rem;
+  left: -6rem;
+  border: 20px solid white;
+}
+.cost-section {
+  padding-left: 2rem;
+  margin-bottom: 0rem;
+}
+.delivery {
+  padding-bottom: 2rem;
+}
+.logistic-solution {
+  margin-top: 4rem;
+  background-color: white;
+}
+.packages {
+  margin-bottom: 0;
+}
+.count {
+  padding-top: 86px;
+}
+.square {
+  padding: 0 10px;
+}
+.year {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 59px;
+  color: #1c1f35;
+}
+.package-area {
+  border: 2px solid #d5d5d5;
+  border-left: none;
+  border-right: none;
+  padding: 46px 0;
+}
+.transport-head {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 41px;
+  text-align: center;
+
+  color: #1c1f35;
+}
+.pic {
+  padding: 0 122px;
+  z-index: 9999999;
+  position: inherit;
+}
+.pic-wrap::after {
+  content: "";
+  position: absolute;
+  top: 350px;
+  left: 0;
+  right: 0;
+  /* height: 200px; */
+
+  background: linear-gradient(
+    95deg,
+    #ffb629 -1.19%,
+    #ffda56 57.78%,
+    #ffd7a6 115.08%
+  );
+  height: 400px;
+}
+.pic-wrap {
+  position: relative;
+}
+.more-button {
+  padding: 10px;
+  position: absolute;
+    top: 30rem;
+    left: 40rem;
+    border: none;
+    background-color: #091242;
+    color: white;
+}
+.img-head {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.img-sub-head {
+  font-family: 'Krub';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: #FFB629;
+
+
+}
+.img-designation-wrap{
+  position: relative;
+}
+.transportation{
+  position: absolute;
+  top: 13rem;
+  left: 2rem;
+}

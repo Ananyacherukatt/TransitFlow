@@ -1,0 +1,11 @@
+.navbar-area5 {
+    background-image: url(./img/aircanada.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 460px;
+    /* background: linear-gradient(
+      91.26deg,
+      #032d5f 19.32%,
+      rgba(9, 18, 66, 0.35) 59.95%
+    ); */
+  }

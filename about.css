@@ -1,0 +1,161 @@
+.navbar-area2 {
+  background-image: url(./img/plane-bg.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 375px;
+}
+.truck-boy-img {
+  position: relative;
+  padding: 5rem;
+}
+.deliveryboy {
+  position: absolute;
+  top: 23rem;
+  left: 36rem;
+  border: 15px solid white;
+}
+.p-5 {
+  padding: 5rem;
+}
+.buttons button {
+  padding: 10px;
+
+  font-family: "Krub";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  border: none;
+}
+.yellow-button {
+  background: #ffb82b;
+}
+.transperant-button {
+  background: #f4f4f4;
+}
+.blue-button {
+  background: #091242;
+  padding: 10px;
+  font-family: "Krub";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  border: none;
+  color: #fff;
+}
+.grey-container {
+  background: #f4f4f4;
+}
+.services-grp {
+  padding: 0 100px;
+  gap: 2rem;
+}
+.pic-collection {
+  padding: 0 100px;
+}
+.designation {
+  position: relative;
+}
+.img-text {
+  background-color: #091242;
+  color: white;
+  padding: 20px 10px;
+  /* width: 100%; */
+  padding-left: 2rem;
+}
+.img-sub-head {
+  margin-bottom: 0;
+}
+.social-icons {
+  background: linear-gradient(
+    94.06deg,
+    #ffb629 -1.21%,
+    #ffda56 58.66%,
+    #ffd7a6 116.84%
+  );
+  position: absolute;
+  top: 25rem;
+  left: 269px;
+  padding: 13px 20px;
+}
+
+.customer {
+  background: #f4f4f4;
+  padding: 0 100px;
+}
+.blueContainer {
+  background-color: #091242;
+  color: white;
+}
+.heading {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #1c1f35;
+}
+.price {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 85px;
+  line-height: 101px;
+  text-align: center;
+  color: #1c1f35;
+}
+.smallHead{
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #1c1f35;
+}
+.firstContainer {
+  background: #F4F4F4;
+  padding: 20px 90px;
+}
+.plan {
+  background-color: #1c1f35;
+  padding: 10px;
+  border: none;
+  color: white;
+}
+.secondContainer{
+  background-color: #1c1f35;
+  padding: 20px 90px;
+}
+.accordionContent {
+  gap: 2rem;
+}
+.smallContainer {
+  background-color: #1c1f35;
+  color: white;
+}
+.yellow-button {
+  padding: 10px;
+  border: none;
+}
+.driverContainer {
+  position: relative;
+  width: 448px;
+ 
+}
+.drive img {
+  height: 539px;
+  width: 682px;
+}
+.smallContainer {
+  position: absolute;
+  top: 5rem;
+  left: -8rem;
+  padding: 50px;
+  width: 448px;
+}
+.tables {
+  border: 2px solid #d5d5d5;
+}
+.questions {
+  background: #F4F4F4;
+}

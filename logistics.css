@@ -1,0 +1,59 @@
+.navbar-area5 {
+  background-image: url(./img/redtruck.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 460px;
+  /* background: linear-gradient(
+    91.26deg,
+    #032d5f 19.32%,
+    rgba(9, 18, 66, 0.35) 59.95%
+  ); */
+}
+.employSection {
+  background: #f4f4f4;
+}
+.labourBuilding {
+  position: relative;
+}
+.building {
+  position: absolute;
+  top: 12rem;
+  left: 27rem;
+  border: 20px solid white;
+}
+.smith img {
+  border-radius: 50%;
+}
+.blueSection {
+  background: #091242;
+  color: white;
+  padding: 50px;
+}
+.greySection {
+  background: #f4f4f4;
+  padding: 50px;
+}
+.location {
+  border: 2px solid black;
+  padding: 40px;
+}
+.rectangle {
+  width: 17px;
+  height: 17px;
+
+  background: linear-gradient(
+    94.06deg,
+    #ffb629 -1.21%,
+    #ffda56 58.66%,
+    #ffd7a6 116.84%
+  );
+margin: 0 10px;
+}
+.buttonClass{
+    position: relative;
+} 
+.yellow-button {
+    position: absolute;
+    top:34rem;
+    left: 40rem;
+}
