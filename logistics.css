@@ -34,7 +34,7 @@
   padding: 50px;
 }
 .location {
-  border: 2px solid black;
+  border: 1px solid grey;
   padding: 40px;
 }
 .rectangle {
@@ -47,13 +47,29 @@
     #ffda56 58.66%,
     #ffd7a6 116.84%
   );
-margin: 0 10px;
+  margin: 0 10px;
 }
-.buttonClass{
-    position: relative;
-} 
+.buttonClass {
+  position: relative;
+}
 .yellow-button {
-    position: absolute;
-    top:34rem;
-    left: 40rem;
+  position: absolute;
+  /* top: 34rem;
+  left: 40rem; */
+}
+.workItemHead {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #1c1f35;
+}
+.workItemSub {
+  font-family: "Krub";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 151.52%;
+  color: #666c89;
 }

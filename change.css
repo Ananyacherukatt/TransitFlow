@@ -1,0 +1,27 @@
+.navbar-area14 {
+  background-image: url(./img/river.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 375px;
+}
+.version {
+  background: #091242;
+  margin: 0 auto;
+  height: 251px;
+}
+.firstVersion {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 116%;
+  color: #ffffff;
+}
+.initial {
+  font-family: "Krub";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  background: #1C2551;
+}

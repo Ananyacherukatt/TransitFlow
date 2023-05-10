@@ -9,6 +9,10 @@ body {
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
+  background: #ffffff;
+  height: 60px;
+  border-radius: 0;
+  min-width: 200px;
 }
 .logo {
   background: #091242;
@@ -34,7 +38,7 @@ body {
   background-image: url(./img/bg-img.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  height: 710px;
+  height: 660px;
 }
 .nav-contents a {
   text-decoration: none;
@@ -58,12 +62,16 @@ body {
   font-size: 14px;
   line-height: 17px;
   color: #ffffff;
+  background: rgba(4, 28, 55, 0.5);
+  /* width:1em; */
+  border-left: 2px solid #ffb629;
+  padding: 0 5px;
 }
 .main-head {
   font-family: "Rubik";
   font-style: normal;
   font-weight: 700;
-  font-size: 55px;
+  font-size: 44px;
   line-height: 71px;
   color: #ffffff;
 }
@@ -97,6 +105,9 @@ body {
   line-height: 17px;
   color: #1c1f35;
   padding-bottom: 0;
+  /* border-left: 4px solid #ffb82b;
+  background: #D8D8D8;
+  max-width: fit-content; */
 }
 .safe-head {
   font-family: "Rubik";
@@ -119,7 +130,7 @@ body {
   font-family: "Krub";
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 13px;
 
   color: #666c89;
   /* padding-right: 81px; */
@@ -218,11 +229,11 @@ body {
 .more-button {
   padding: 10px;
   position: absolute;
-    top: 30rem;
-    left: 40rem;
-    border: none;
-    background-color: #091242;
-    color: white;
+  top: 30rem;
+  left: 40rem;
+  border: none;
+  background-color: #091242;
+  color: white;
 }
 .img-head {
   font-family: "Rubik";
@@ -233,19 +244,48 @@ body {
   color: #ffffff;
 }
 .img-sub-head {
-  font-family: 'Krub';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-color: #FFB629;
-
-
+  font-family: "Krub";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffb629;
 }
-.img-designation-wrap{
+.img-designation-wrap {
   position: relative;
 }
-.transportation{
+.transportation {
   position: absolute;
   top: 13rem;
   left: 2rem;
+}
+.homePageItems {
+  background: rgba(9, 18, 66, 0.25);
+}
+#navbarSupportedContent {
+  padding: 0;
+}
+.contacts {
+  list-style: none;
+}
+.homePageItem {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+.email {
+  border: 1px solid #4e5683;
+  min-width: 317px;
+}
+.sendButton {
+  border: none;
+
+  background: linear-gradient(
+    94.06deg,
+    #ffb629 -1.21%,
+    #ffda56 58.66%,
+    #ffd7a6 116.84%
+  );
+  
+}
+.footerLine {
+    color: #ffb629;
 }

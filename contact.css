@@ -1,0 +1,53 @@
+.navbar-area11 {
+  background-image: url(./img/contactTruck.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 375px;
+}
+.centerBox {
+  margin: 0 auto;
+  background: #1c1f35;
+}
+.contactArea {
+  color: white;
+  font-size: 14px;
+}
+.name {
+  border: 1px solid white;
+  padding: 5px;
+}
+.number {
+  border: 1px solid white;
+  padding: 5px;
+}
+.message {
+  border: 1px solid white;
+  padding: 5px;
+  height: 100px;
+}
+.submit {
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  background: linear-gradient(
+    94.06deg,
+    #ffb629 -1.21%,
+    #ffda56 58.66%,
+    #ffd7a6 116.84%
+  );
+  
+}
+.box {
+  width: 299px;
+  /* height: 234px; */
+  background: #ffffff;
+  border: 1px solid #4e5683;
+}
+.readSection {
+  background: #f4f4f4;
+}
+.smallBlueSection {
+  background: #1c1f35;
+  width: 448px;
+  height: 368px;
+}

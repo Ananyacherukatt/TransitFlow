@@ -18,12 +18,12 @@
   padding: 5rem;
 }
 .buttons button {
-  padding: 10px;
+  padding: 10px 20px;
 
   font-family: "Krub";
   font-style: normal;
   font-weight: 600;
-  font-size: 19px;
+  font-size: 15px;
   border: none;
 }
 .yellow-button {
@@ -34,11 +34,11 @@
 }
 .blue-button {
   background: #091242;
-  padding: 10px;
+  padding: 10px 20px;
   font-family: "Krub";
   font-style: normal;
   font-weight: 600;
-  font-size: 19px;
+  font-size: 15px;
   border: none;
   color: #fff;
 }
@@ -99,22 +99,22 @@
   font-family: "Rubik";
   font-style: normal;
   font-weight: 500;
-  font-size: 85px;
+  font-size: 65px;
   line-height: 101px;
   text-align: center;
   color: #1c1f35;
 }
-.smallHead{
+.smallHead {
   font-family: "Rubik";
   font-style: normal;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 14px;
   line-height: 26px;
   color: #1c1f35;
 }
 .firstContainer {
-  background: #F4F4F4;
-  padding: 20px 90px;
+  background: #f4f4f4;
+  padding: 50px 50px;
 }
 .plan {
   background-color: #1c1f35;
@@ -122,9 +122,17 @@
   border: none;
   color: white;
 }
-.secondContainer{
+.names {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #091242;
+}
+.secondContainer {
   background-color: #1c1f35;
-  padding: 20px 90px;
+  padding: 50px 50px;
 }
 .accordionContent {
   gap: 2rem;
@@ -133,6 +141,32 @@
   background-color: #1c1f35;
   color: white;
 }
+.deliveryTruck {
+  position: relative;
+}
+.deliveryBoy {
+  position: absolute;
+  top: 10rem;
+  left: 20rem;
+  border: 20px solid white;
+}
+.queries {
+  font-family: "Krub";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 135.02%;
+  color: #ffffff;
+}
+.subHeadWithYellowMargin {
+  border-left: 5px solid #ffe472;
+  background: #2d3a7b;
+  max-width: fit-content;
+}
+.drive img {
+  width: 1000px;
+  height: 667px;
+}
 .yellow-button {
   padding: 10px;
   border: none;
@@ -140,7 +174,6 @@
 .driverContainer {
   position: relative;
   width: 448px;
- 
 }
 .drive img {
   height: 539px;
@@ -157,5 +190,81 @@
   border: 2px solid #d5d5d5;
 }
 .questions {
-  background: #F4F4F4;
+  background: #f4f4f4;
+}
+#main {
+  margin: 50px 0;
+}
+
+#main #faq .card {
+  margin-bottom: 30px;
+  border: 0;
+}
+
+#main #faq .card .card-header {
+  border: 0;
+  -webkit-box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+  box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+  border-radius: 2px;
+  padding: 0;
+}
+
+#main #faq .card .card-header .btn-header-link {
+  color: #fff;
+  display: block;
+  text-align: left;
+  background: #f4f4f4;
+  color: #222;
+  padding: 20px;
+}
+
+#main #faq .card .card-header .btn-header-link:after {
+  content: "\f107";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  float: right;
+}
+
+#main #faq .card .card-header .btn-header-link.collapsed {
+  background: #f4f4f4;
+  color: black;
+}
+
+#main #faq .card .card-header .btn-header-link.collapsed:after {
+  content: "\f106";
+}
+
+#main #faq .card .collapsing {
+  background: #f4f4f4;
+  line-height: 30px;
+}
+
+#main #faq .card .collapse {
+  border: 0;
+}
+
+#main #faq .card .collapse.show {
+  background: #f4f4f4;
+  line-height: 30px;
+  color: #222;
+}
+.query {
+  padding-right: 160px;
+}
+.moreButton {
+  padding: 10px;
+  border: none;
+  background-color: #091242;
+  color: white;
+}
+.accodianWorkPage {
+  background: #f4f4f4;
+}
+.card-body {
+  font-family: "Krub";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 151.52%;
+  color: #666c89;
 }

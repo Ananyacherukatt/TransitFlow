@@ -1,0 +1,54 @@
+.navbar-area10 {
+  background-image: url(./img/loading.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 375px;
+}
+.groupOfPeople {
+  background: #f4f4f4;
+}
+#socialIcons1 {
+  left: 255px;
+}
+#socialIcons2 {
+  left: 226px;
+}
+#socialIcons3 {
+  left: 284px;
+}
+.colorfulBoxes {
+  position: relative;
+}
+.truckOnRoad {
+  position: absolute;
+  bottom: 0rem;
+  border: 20px solid white;
+  right: -100px;
+  top: 7rem;
+}
+
+.about {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1c1f35;
+}
+.TransitflowElements {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  color: #ffffff;
+  /* height: 118px; */
+}
+.footerdes {
+  font-family: "Krub";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 151.52%;
+  color: #e8e8e8;
+}
