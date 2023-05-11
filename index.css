@@ -66,6 +66,15 @@ body {
   /* width:1em; */
   border-left: 2px solid #ffb629;
   padding: 0 5px;
+  width: max-content;
+}
+.bgGrey{
+background: #F4F4F4;
+max-width: fit-content;
+border-left: 2px solid #ffb629;
+  padding: 0 5px;
+margin: 0 auto;
+  
 }
 .main-head {
   font-family: "Rubik";
