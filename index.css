@@ -85,7 +85,15 @@ body {
 }
 .explore {
   padding: 10px;
+  border: none;
+  background: #ffb629;
 }
+.greyplanecontainer{
+  background: #F4F4F4;
+    height: 40rem;
+    padding: 100px;
+}
+
 .right-border {
   border-left: 2px solid#D8D8D8;
   padding-left: 2rem;
@@ -210,7 +218,7 @@ body {
 .pic-wrap::after {
   content: "";
   position: absolute;
-  top: 350px;
+  top: 320px;
   left: 0;
   right: 0;
   /* height: 200px; */
@@ -221,16 +229,16 @@ body {
     #ffda56 57.78%,
     #ffd7a6 115.08%
   );
-  height: 400px;
+  height: 300px;
 }
 .pic-wrap {
   position: relative;
 }
 .more-button {
-  padding: 10px;
-  position: absolute;
+  padding: 10px 30px;
+  /* position: absolute;
   top: 30rem;
-  left: 40rem;
+  left: 40rem; */
   border: none;
   background-color: #091242;
   color: white;
@@ -239,7 +247,7 @@ body {
   font-family: "Rubik";
   font-style: normal;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 24px;
   color: #ffffff;
 }
@@ -284,8 +292,35 @@ body {
     #ffda56 58.66%,
     #ffd7a6 116.84%
   );
-  
 }
 .footerLine {
-    color: #ffb629;
+  color: #ffb629;
+}
+.customer {
+  padding: 7rem 0;
+}
+.dreamLifterPlane {
+  position: absolute;
+  left: 7rem;
+  z-index: 9999;
+  top: 3rem;
+}
+.planecontainer {
+  position: relative;
+  background-color: #091242;
+  height: 40rem;
+}
+.blueplanecontainer {
+  padding: 100px 0;
+}
+.elementscontact {
+  color: white;
+}
+.naming {
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 18px;
+  color: #ffffff;
 }
