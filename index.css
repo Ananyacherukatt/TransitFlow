@@ -88,10 +88,12 @@ body {
   border: none;
   background: #ffb629;
 }
-.greyplanecontainer{
-  background: #F4F4F4;
-    height: 40rem;
-    padding: 100px;
+.greyplanecontainer {
+  background: #f4f4f4;
+  height: 40rem;
+  padding: 100px;
+}
+.planeButton {
 }
 
 .right-border {
@@ -310,6 +312,18 @@ body {
   background-color: #091242;
   height: 40rem;
 }
+.planeButton {
+  background: linear-gradient(
+    94.06deg,
+    #ffb629 -1.21%,
+    #ffda56 58.66%,
+    #ffd7a6 116.84%
+  );
+  padding: 30px;
+  z-index: 99999;
+  position: absolute;
+}
+
 .blueplanecontainer {
   padding: 100px 0;
 }
