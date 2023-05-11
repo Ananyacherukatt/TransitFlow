@@ -292,8 +292,10 @@ margin: 0 auto;
 }
 .email {
   border: 1px solid #4e5683;
-  min-width: 317px;
+  width: max-content;
+  padding: 10px 80px;
 }
+
 .sendButton {
   border: none;
 

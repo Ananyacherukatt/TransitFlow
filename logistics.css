@@ -52,11 +52,7 @@
 .buttonClass {
   position: relative;
 }
-.yellow-button {
-  position: absolute;
-  /* top: 34rem;
-  left: 40rem; */
-}
+
 .workItemHead {
   font-family: "Rubik";
   font-style: normal;
