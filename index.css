@@ -106,8 +106,7 @@ body {
   height: 40rem;
   padding: 100px;
 }
-.planeButton {
-}
+
 
 .right-border {
   border-left: 2px solid#D8D8D8;
@@ -119,6 +118,12 @@ body {
 
 .ship {
   gap: 2rem;
+}
+.stars {
+  margin-top: 32px;
+}
+.says {
+  margin-bottom: 40px;
 }
 .grey-head {
   font-family: "Rubik";
