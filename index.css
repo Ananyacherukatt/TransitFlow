@@ -97,16 +97,26 @@ body {
   color: #ffffff;
 }
 .explore {
-  padding: 10px;
+  padding: 15px;
   border: none;
-  background: #ffb629;
+  background: linear-gradient(
+    94.06deg,
+    #ffb629 -1.21%,
+    #ffda56 58.66%,
+    #ffd7a6 116.84%
+  );
+  position: relative;
+  min-width: 194px;
+}
+.pattern {
+  position: absolute;
+  bottom: 0px;
 }
 .greyplanecontainer {
   background: #f4f4f4;
   height: 40rem;
   padding: 100px;
 }
-
 
 .right-border {
   border-left: 2px solid#D8D8D8;
@@ -368,7 +378,7 @@ body {
 #exampleFormControlTextarea1 {
   background-color: transparent;
   border: 1px solid #e0e0e0;
-   /* padding: 50px 250px; */
-   margin-bottom: 2rem; 
+  /* padding: 50px 250px; */
+  margin-bottom: 2rem;
   border-radius: 0;
 }
