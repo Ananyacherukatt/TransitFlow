@@ -74,6 +74,12 @@ body {
   padding: 0 5px;
   margin: 0 auto;
 }
+.logics{
+  background: #f4f4f4;
+  max-width: fit-content;
+  border-left: 2px solid #ffb629;
+  padding: 0 5px;
+} 
 .main-head {
   font-family: "Rubik";
   font-style: normal;
