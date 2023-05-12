@@ -74,12 +74,12 @@ body {
   padding: 0 5px;
   margin: 0 auto;
 }
-.logics{
+.logics {
   background: #f4f4f4;
   max-width: fit-content;
   border-left: 2px solid #ffb629;
   padding: 0 5px;
-} 
+}
 .main-head {
   font-family: "Rubik";
   font-style: normal;
@@ -353,4 +353,17 @@ body {
   font-size: 20px;
   line-height: 18px;
   color: #ffffff;
+}
+.plceholdervalues {
+  background-color: transparent;
+  border: 1px solid #e0e0e0;
+  padding: 10px 20px;
+  margin-bottom: 2rem;
+}
+#exampleFormControlTextarea1 {
+  background-color: transparent;
+  border: 1px solid #e0e0e0;
+   /* padding: 50px 250px; */
+   margin-bottom: 2rem; 
+  border-radius: 0;
 }
